@@ -49,6 +49,7 @@ training_arguments = TrainingArguments(
 1. `main.py`と同じディレクトリに、qlora-modelというフォルダーを配置します。フォルダー内には、QLoRAファインチューニングの実行によって得られる次のファイルを含めます。
 
 　- adapter_config.json：アダプターの構造やハイパーパラメータなどの設定を定義したJSON形式のファイル。
+ 
 　- adapter_model.safetensors：アダプターの重みや他の学習済みパラメータを保存したファイル。
 
 2. `requirements.txt`にリストされている必要な依存関係をインストールします：
